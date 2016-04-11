@@ -1,0 +1,74 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;;
+	box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  padding: .5em;
+}
+
+h1 {
+  margin: 0;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+
+}
+
+.hamburger {
+  width: 25px;
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
