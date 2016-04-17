@@ -113,6 +113,7 @@ nav a:hover, .banner-btn:hover {
   transform: translateX(-50%);
   top: 1em;
   z-index: 1;
+  width: 100%;
 }
 
 .banner-title {
