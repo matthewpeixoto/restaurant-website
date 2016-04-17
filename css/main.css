@@ -29,9 +29,11 @@ header {
 }
 
 h1 {
-  margin: .5em;
+  margin: 0;
+  padding: .5em;
   display: inline-block;
   font-size: 1.25rem;
+  font-family: 'Pacifico', cursive;
 }
 
 .nav {
@@ -93,7 +95,7 @@ nav a:hover, .banner-btn:hover {
   transform: translateX(-50%);
 }
 
-.banner-medium, .banner-large, .banner-extralarge {
+.banner-medium, .banner-large, .banner-small {
   display: none;
 }
 
@@ -193,6 +195,34 @@ nav a:hover, .banner-btn:hover {
     float:left
   }
 
+  h1 {
+    display: inline-block;;
+
+  }
+
+  .nav-check, .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: inline-block;
+    padding: 0;
+    float: right;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  header {
+    text-align: left;
+  }
+  nav a {
+    border: none;
+    padding: 1em 2em;
+    font-size: .8rem;
+  }
+
   .banner-small {
     display: none;
   }
@@ -218,12 +248,13 @@ nav a:hover, .banner-btn:hover {
     width: 25%;
   }
 
-  .banner-medium {
+  .banner-large {
     display: none;
   }
 
-  .banner-large {
+  .banner-extralarge {
     display: block;
+    width: 100%;
   }
 
 }
@@ -244,11 +275,7 @@ nav a:hover, .banner-btn:hover {
     width: 100%;
   }
 
-  .img-wrapper {
-    height: 705px;
-  }
-
   .banner-body {
-    top: 4em;
+    top: 2em;
   }
 }
