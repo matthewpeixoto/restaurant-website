@@ -8,13 +8,13 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;;
-	box-sizing: border-box;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
   font: normal 100%/1.3 "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -34,7 +34,7 @@ h1 {
   padding: .6em;
   display: inline-block;
   font-size: 1.25rem;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   color: #fff;
 }
 
@@ -52,15 +52,10 @@ h1 {
   top: -3em;
 }
 
-.nav-check:checked ~ .nav-label {
-
-}
-
 .hamburger {
   width: 3em;
   padding: 1.25em .95em;
   float: left;
-  cursor: pointer; cursor: hand;
 
 }
 
@@ -135,12 +130,11 @@ nav a:hover, .banner-btn:hover, h1:hover {
 }
 
 .card-img-wrapper {
-  position: relative;;
+  position: relative;
   overflow: hidden;
   width: 100%;
   height: 204px;
 }
-
 
 .card-img {
   height: 100%;
@@ -198,7 +192,7 @@ nav a:hover, .banner-btn:hover, h1:hover {
 
   .card {
     width: 50%;
-    float:left
+    float:left;
   }
 
   h1 {
