@@ -31,7 +31,7 @@ header {
 
 h1 {
   margin: 0;
-  padding: .6em;
+  padding: .71em;
   display: inline-block;
   font-size: 1.25rem;
   font-family: "Pacifico", cursive;
@@ -56,7 +56,6 @@ h1 {
   width: 3em;
   padding: 1.25em .95em;
   float: left;
-
 }
 
 nav ul {
@@ -67,7 +66,7 @@ nav ul {
 }
 
 nav a {
-  padding: .75em 0 .75em .75em;
+  padding: 1em;
   display: inline-block;
   width: 100%;
   color: #fff;
@@ -76,31 +75,29 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fdc82f;
   color: #000;
+  background-color: #f4be02;
 }
 
 .img-wrapper {
-  overflow: hidden;
-  position: relative;
+  display:flex;
+   justify-content:center;
+   align-items:center;
+   overflow:hidden;
   width: 100%;
-  height: 40vh;
-  min-height: 340px;
+  min-height: 360px;
+  max-height: 420px;
+  height: 45vh;
 }
 
 .img-flex {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.banner-medium, .banner-large, .banner-extralarge {
-  display: none;
+  flex-shrink:0;
+  min-width:100%;
+  min-height:100%
 }
 
 .banner-link {
   color: #fff;
-  text-decoration: none;
 }
 
 .banner {
@@ -112,20 +109,19 @@ nav a:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 1em;
+  top: 2em;
   z-index: 1;
   width: 90%;
 }
 
 .banner-title {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 300;
-  line-height: 1.3;
 }
 
 .banner-btn {
-  color: #fdc82f;
+  color: #f4be02;
 }
 
 .banner-btn:hover {
@@ -139,6 +135,7 @@ nav a:hover {
 }
 
 .card-img-wrapper {
+  margin: 0;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -172,7 +169,7 @@ nav a:hover {
 
 .card-title {
   margin: 0;
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-size: 1.15em;
 }
 
@@ -183,6 +180,28 @@ nav a:hover {
 .section-food {
   clear: both;
 }
+
+.section-img-wrapper {
+  overflow: hidden;
+  position: relative;
+  height: 1250px;
+}
+
+.section-img-flex {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-body {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+  margin-top: 3em;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -206,7 +225,6 @@ nav a:hover {
 
   h1 {
     display: inline-block;
-    padding: .75em;
   }
 
   header {
@@ -229,21 +247,14 @@ nav a:hover {
 
   nav a {
     border: none;
-    padding: 1.6em;
+    padding: 1.5em;
     font-size: .8rem;
   }
 
-  .banner-small {
-    display: none;
-  }
-
-  .banner-medium {
-    display: block;
-  }
-
   .img-wrapper {
-    height: 70vh;
+    height: 75vh;
     min-height: 585px;
+    max-height: 1000px;
   }
 
 }
@@ -259,15 +270,6 @@ nav a:hover {
     width: 25%;
   }
 
-  .banner-medium {
-    display: none;
-  }
-
-  .banner-extralarge {
-    display: block;
-    width: 100%;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -277,21 +279,12 @@ nav a:hover {
     line-height: 1.5;
   }
 
-  .banner-large {
-    display: none;
-  }
-
-  .banner-extralarge {
-    display: block;
-    width: 100%;
-  }
-
   .banner-body {
-    top: 2em;
+    top: 1.5em;
   }
 
-  .img-wrapper {
-    min-height: 675px;
+  .card {
+    max-width: 608px;
   }
 
 }
