@@ -30,7 +30,7 @@ header {
 
 h1 {
   margin: 0;
-  padding: .5em;
+  padding: .6em;
   display: inline-block;
   font-size: 1.25rem;
   font-family: 'Pacifico', cursive;
@@ -95,7 +95,7 @@ nav a:hover, .banner-btn:hover {
   transform: translateX(-50%);
 }
 
-.banner-medium, .banner-large, .banner-small {
+.banner-medium, .banner-large, .banner-extralarge {
   display: none;
 }
 
@@ -115,7 +115,7 @@ nav a:hover, .banner-btn:hover {
   transform: translateX(-50%);
   top: 1em;
   z-index: 1;
-  width: 100%;
+  width: 90%;
 }
 
 .banner-title {
@@ -196,8 +196,12 @@ nav a:hover, .banner-btn:hover {
   }
 
   h1 {
-    display: inline-block;;
+    display: inline-block;
+    padding: .75em;
+  }
 
+  header {
+    text-align: left;
   }
 
   .nav-check, .hamburger {
@@ -214,12 +218,9 @@ nav a:hover, .banner-btn:hover {
     display: inline-block;
   }
 
-  header {
-    text-align: left;
-  }
   nav a {
     border: none;
-    padding: 1em 2em;
+    padding: 1.5em;
     font-size: .8rem;
   }
 
@@ -248,13 +249,12 @@ nav a:hover, .banner-btn:hover {
     width: 25%;
   }
 
-  .banner-large {
+  .banner-medium {
     display: none;
   }
 
-  .banner-extralarge {
+  .banner-large {
     display: block;
-    width: 100%;
   }
 
 }
