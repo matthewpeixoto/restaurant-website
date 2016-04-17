@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  min-width: 320px;
 }
 
 header {
@@ -34,6 +35,7 @@ h1 {
   display: inline-block;
   font-size: 1.25rem;
   font-family: 'Pacifico', cursive;
+  color: #fff;
 }
 
 .nav {
@@ -78,15 +80,16 @@ nav a {
   border-bottom: solid 1px #333;
 }
 
-nav a:hover, .banner-btn:hover {
+nav a:hover, .banner-btn:hover, h1:hover {
   color: #fdc82f;
 }
 
 .img-wrapper {
   overflow: hidden;
-  position: relative;;
+  position: relative;
   width: 100%;
-  height: 345px;
+  height: 40vh;
+  min-height: 345px;
 }
 
 .img-flex {
@@ -132,10 +135,10 @@ nav a:hover, .banner-btn:hover {
 }
 
 .card-img-wrapper {
-  overflow: hidden;
-  height: 205px;
   position: relative;;
+  overflow: hidden;
   width: 100%;
+  height: 204px;
 }
 
 
@@ -174,6 +177,9 @@ nav a:hover, .banner-btn:hover {
   margin: 0;
 }
 
+.section-food {
+  clear: both;
+}
 @media only screen and (min-width: 25em) {
 
   html {
@@ -233,7 +239,8 @@ nav a:hover, .banner-btn:hover {
   }
 
   .img-wrapper {
-    height: 605px;
+    height: 70vh;
+    min-height: 605px;
   }
 
 }
@@ -253,8 +260,9 @@ nav a:hover, .banner-btn:hover {
     display: none;
   }
 
-  .banner-large {
+  .banner-extralarge {
     display: block;
+    width: 100%;
   }
 
 }
@@ -278,4 +286,9 @@ nav a:hover, .banner-btn:hover {
   .banner-body {
     top: 2em;
   }
+
+  .img-wrapper {
+    min-height: 705px;
+  }
+
 }
