@@ -56,7 +56,7 @@ p {
   font-size: 2.15rem;
 }
 
-/*nav*/
+/* nav */
 
 .nav {
   display: none;
@@ -130,17 +130,13 @@ nav a:hover {
   background-color: #f4be02;
 }
 
-/*nav*/
+/* nav */
 
-/*banner*/
+/* banner */
 
 .banner {
   position: relative;
   text-align: center;
-}
-
-.banner-title {
-  font
 }
 
 .img-wrapper {
@@ -170,6 +166,7 @@ nav a:hover {
 .banner-text {
   margin: .45em 0;
 }
+
 .banner-btn {
   color: #fff;
 }
@@ -179,9 +176,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/*banner*/
+/* banner */
 
-/*cards*/
+/* cards */
 
 .cards {
   max-width: 2560px;
@@ -241,9 +238,9 @@ nav a:hover {
   margin: 0;
 }
 
-/*cards*/
+/* cards */
 
-/*section1*/
+/* sections */
 
 .section-large {
   clear: both;
@@ -266,9 +263,10 @@ nav a:hover {
   color: #333;
 }
 
-.section2-body{
+.section2-body {
   max-width: 500px;
 }
+
 .section-img-wrapper {
   overflow: hidden;
   text-align: center;
@@ -283,11 +281,6 @@ nav a:hover {
   display: block;
 }
 
-.section2-img-wrapper {
-  /*justify-content: center;*/
-  /*text-align: left;*/
-}
-
 footer {
   text-align: center;
 }
@@ -300,7 +293,7 @@ footer {
   color: #333;
 }
 
-/*section1*/
+/* sections */
 
 @media only screen and (min-width: 25em) {
 
