@@ -22,7 +22,6 @@ body {
   min-width: 320px;
   max-width: 1800px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 header {
@@ -57,12 +56,12 @@ p {
   font-size: 2.15rem;
 }
 
-}
 /*nav*/
 
 .nav {
   display: none;
-  padding: 1em 3em 3em;
+  padding: 1em 3em 3
+  em;
 }
 
 .nav-check {
@@ -136,18 +135,18 @@ nav a:hover {
 /*banner*/
 
 .img-wrapper {
-  display:flex;
+  margin: 0;
+  display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 100%;
   min-height: 390px;
   max-height: 450px;
   height: 45vh;
 }
 
 .img-flex {
-  min-width: 1800px;
+  height: 100%;
 }
 
 .banner-link {
@@ -172,12 +171,12 @@ nav a:hover {
   margin: .45em 0;
 }
 .banner-btn {
-  color: #f4be02;
+  color: #fff;
 }
 
-.banner-btn:hover,
-h1:hover {
+.banner-btn:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
 /*banner*/
@@ -364,11 +363,18 @@ footer {
     height: 72vh;
     min-height: 650px;
     max-height: 1500px;
+    width: 100%;
   }
 
   .banner-body {
     top: 3em;
   }
+
+  .img-flex {
+    height: 100%;
+    width: auto;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -387,6 +393,11 @@ footer {
   }
 
   .section-img-wrapper {
+    height: auto;
+  }
+
+  .img-flex {
+    width: 130%;
     height: auto;
   }
 
