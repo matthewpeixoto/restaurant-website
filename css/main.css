@@ -32,11 +32,11 @@ header {
 }
 
 h1 {
+  font-size: 16px;
+  padding: 16px;
   margin: 0 2.6em 0 0;
-  padding: .6em;
   display: inline-block;
   font-family: "Pacifico", cursive;
-  font-size: 1.25rem;
   color: #fff;
   text-align: center;
 }
@@ -116,7 +116,8 @@ nav ul {
 }
 
 nav a {
-  padding: 1.1em;
+  font-size: 16px;
+  padding: 16px 28px;
   display: inline-block;
   width: 100%;
   color: #fff;
@@ -151,11 +152,6 @@ nav a:hover {
 
 .banner-link {
   color: #fff;
-}
-
-.banner {
-  position: relative;
-  text-align: center;
 }
 
 .banner-body {
@@ -364,7 +360,6 @@ footer {
 
   nav a {
     border: none;
-    font-size: .9rem;
   }
 
   .img-wrapper {
