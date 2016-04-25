@@ -275,6 +275,10 @@ nav a:hover {
   position: relative;
 }
 
+.section-img-flex {
+  width: auto;
+}
+
 .section2-img-wrapper {
   justify-content: center;
   text-align: left;
