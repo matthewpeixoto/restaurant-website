@@ -213,7 +213,7 @@ nav a:hover {
   transform: translateX(-50%);
 }
 
-.card-body {
+.card-copy {
   text-decoration: none;
   position: absolute;
   left: 50%;
@@ -388,13 +388,13 @@ strong:hover {
   }
 
   .img-right {
-  float: right;
+    float: right;
   }
 
   .section-copy {
-  padding: 0 35px 17px;
-  position: absolute;
-  width: auto;
+    padding: 0 35px 17px;
+    position: absolute;
+    width: auto;
   }
 
 }
