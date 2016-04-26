@@ -179,7 +179,6 @@ nav a:hover {
 
 .cards {
   margin: 0 auto;
-  border-top: 2px solid #fff;
   text-align: center;
 }
 
@@ -190,8 +189,7 @@ nav a:hover {
 }
 
 .cards li {
-  margin: 0;
-  padding: 0;
+  border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
   overflow: hidden;
   height: 200px;
@@ -213,20 +211,21 @@ nav a:hover {
 }
 
 .card-copy {
+  margin: 0;
+  padding: .5em;
+  width: 105%;
   text-decoration: none;
   position: absolute;
   left: 50%;
+  bottom: 0;
   transform: translateX(-50%);
-  width: 90%;
-  color: #fff;
-  z-index: 1;
+  font-family: "Pacifico", cursive;
   font-size: 1rem;
+  color: #333;
+  z-index: 1;
+  background-color: #f2f2f2;
 }
 
-.card-title {
-  margin: 1em 0 0 0;
-  font-size: 1.25rem;
-}
 
 /* cards */
 
@@ -263,19 +262,23 @@ nav a:hover {
   padding-top: 1em;
 }
 
-.title-food {
+.title-food,
+.card-food {
   color: #498867;
 }
 
-.title-preserve {
+.title-preserve,
+.card-preserve {
   color: #bb4a37;
 }
 
-.title-soap {
+.title-soap,
+.card-soap {
   color: #0f637f;
 }
 
-.title-chef {
+.title-chef,
+.card-chef {
   color: #da9d41;
 }
 
