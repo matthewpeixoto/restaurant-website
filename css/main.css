@@ -18,10 +18,8 @@ html {
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
-  max-width: 1800px;
   margin: 0 auto;
+  max-width: 1860px;
 }
 
 header {
@@ -32,13 +30,12 @@ header {
 }
 
 h1 {
+  margin: 0 3.2em 0 0;
   font-size: 1rem;
   padding: 1rem;
-  margin: 0 2.6em 0 0;
   display: inline-block;
   font-family: "Pacifico", cursive;
   color: #fff;
-  text-align: center;
 }
 
 p {
@@ -142,9 +139,9 @@ nav a:hover {
 .img-wrapper {
   margin: 0;
   overflow: hidden;
-  min-height: 390px;
+  min-height: 350px;
   max-height: 450px;
-  height: 45vh;
+  height: 40vh;
   background-image: url("../images/banner-salad.jpg");
   background-size: cover;
   background-position: center center;
@@ -181,7 +178,6 @@ nav a:hover {
 /* cards */
 
 .cards {
-  max-width: 2560px;
   margin: 0 auto;
   border-top: 2px solid #fff;
   text-align: center;
@@ -206,7 +202,6 @@ nav a:hover {
 }
 
 .card-img-wrapper {
-  margin: 0;
   overflow: hidden;
   width: 100%;
 }
@@ -222,7 +217,7 @@ nav a:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 90%;
   color: #fff;
   z-index: 1;
   font-size: 1rem;
@@ -234,62 +229,86 @@ nav a:hover {
   font-weight: 300;
 }
 
-.card-subtitle {
-  margin: 0;
-}
-
 /* cards */
 
 /* sections */
 
-.section-large {
-  clear: both;
-}
-
-.section-body {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-  width: 90%;
-  max-width: 700px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  color: #fff;
-}
-
-.preserve-body {
-  color: #333;
-}
-
-.section2-body {
-  max-width: 500px;
-}
-
-.section-img-wrapper {
-  overflow: hidden;
-  text-align: center;
+.copy-wrapper {
+  margin: 0;
+  padding: 0;
+  float: left;
+  height: auto;
   position: relative;
   width: 100%;
-  height: 1000px;
+  display: block;
+  background-color: #f2f2f2;
 }
 
-.section-img-flex {
-  width: 1800px;
-  margin-left: -700px;
-  display: block;
+.section-copy {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 33px 0 48px;
+  position: relative;
+  width: 90%;
+  max-width: 735px;
+  bottom: 0;
+}
+
+.section-title {
+  margin: 0;
+}
+
+.section-text {
+  padding-top: 1em;
+}
+
+.section-wrapper {
+  width: 100%;
+  height: 100vw;
+  overflow: hidden;
+}
+
+.section-food {
+  background-image: url("../images/section-food.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.section-preserve {
+  background-image: url("../images/section-preserve.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.section-soap {
+  background-image: url("../images/section-soap.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.section-chef {
+  background-image: url("../images/section-chef.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 footer {
   text-align: center;
+  color: #666;
+  font-size: .75rem;
 }
 
-.footer-logo {
+strong {
+  color: #666;
+  margin-top: 4em;
+  font-size: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  font-family: "Pacifico", cursive;
   color: #666;
 }
 
-.footer-logo:hover {
+strong:hover {
   color: #333;
 }
 
@@ -309,23 +328,6 @@ footer {
   html {
     font-size: 110%;
     line-height: 1.4;
-  }
-
-  .cards li {
-    width: 50%;
-    float:left;
-  }
-
-  .section-body {
-    margin-top: 4em;
-  }
-
-  .section1-body {
-    text-align: center;
-  }
-
-  .card-border {
-    border-right: 2px solid #fff;
   }
 
   h1 {
@@ -360,14 +362,38 @@ footer {
   }
 
   .img-wrapper {
-    height: 72vh;
-    min-height: 650px;
-    max-height: 1500px;
-    width: 100%;
+    height: 70vh;
+    min-height: 575px;
   }
 
   .banner-body {
     top: 3em;
+  }
+
+  .cards li {
+    width: 50%;
+    float:left;
+  }
+
+  .card-border {
+    border-right: 2px solid #fff;
+  }
+
+  .copy-wrapper,
+  .section-wrapper {
+    height: 368px;
+    width: 50%;
+    float: left;
+  }
+
+  .img-right {
+  float: right;
+  }
+
+  .section-copy {
+  padding: 0 35px 17px;
+  position: absolute;
+  width: auto;
   }
 
 }
@@ -387,17 +413,13 @@ footer {
     border-right: 2px solid #fff;
   }
 
-  .section-img-wrapper {
-    height: auto;
+  .copy-wrapper,
+  .section-wrapper {
+    height: 600px;
   }
 
-  .img-flex {
-    width: 130%;
-    height: auto;
-  }
-
-  .section-img-flex {
-    margin-left: 0;
+  .section-copy {
+    padding: 0 70px 52px;
   }
 
 }
@@ -407,10 +429,6 @@ footer {
   html {
     font-size: 130%;
     line-height: 1.5;
-  }
-
-  .img-wrapper {
-    min-height: 750px;
   }
 
 }
