@@ -10,8 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 "Open Sans", sans-serif;
-  font-weight: 300;
+  font: normal 100%/1.3 "PT Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -30,7 +29,7 @@ header {
   text-align: center;
 }
 
-h1 {
+h1, strong {
   margin: 0 3.2em 0 0;
   font-size: 1rem;
   padding: 1rem;
@@ -46,7 +45,6 @@ p {
 
 .title {
   font-size: 2.5rem;
-  font-weight: 300;
   margin: 0 0 0.45em 0;
   line-height: 1.1;
 }
@@ -228,21 +226,20 @@ nav a:hover {
 .card-title {
   margin: 1em 0 0 0;
   font-size: 1.25rem;
-  font-weight: 300;
 }
 
 /* cards */
 
 /* sections */
 
-.copy-wrapper {
-  margin: 0;
-  padding: 0;
-  float: left;
-  height: auto;
-  position: relative;
+.section-wrapper {
   width: 100%;
-  display: block;
+  height: 100vw;
+  overflow: hidden;
+}
+
+.copy-wrapper {
+  position: relative;
   background-color: #f2f2f2;
 }
 
@@ -250,7 +247,6 @@ nav a:hover {
   margin-left: auto;
   margin-right: auto;
   padding: 33px 0 48px;
-  position: relative;
   width: 90%;
   max-width: 735px;
   bottom: 0;
@@ -263,30 +259,24 @@ nav a:hover {
   font-family: "Pacifico", cursive;
 }
 
-.title-food {
-  color: #498301;
-}
-
-.title-preserve {
-  color: #a64741;
-}
-
-.title-soap {
-  color: #0368d2;
-}
-
-.title-chef {
-  color: #c58d22;
-}
-
 .section-text {
   padding-top: 1em;
 }
 
-.section-wrapper {
-  width: 100%;
-  height: 100vw;
-  overflow: hidden;
+.title-food {
+  color: #498867;
+}
+
+.title-preserve {
+  color: #bb4a37;
+}
+
+.title-soap {
+  color: #0f637f;
+}
+
+.title-chef {
+  color: #da9d41;
 }
 
 .section-food {
@@ -320,12 +310,8 @@ footer {
 }
 
 strong {
+  margin: 65px 0 0;
   color: #888;
-  margin-top: 4em;
-  font-size: 1rem;
-  padding: 1rem;
-  display: inline-block;
-  font-family: "Pacifico", cursive;
 }
 
 strong:hover {
@@ -340,6 +326,9 @@ strong:hover {
     font-size: 100%;
     line-height: 1.3;
   }
+
+  strong {
+    margin: 80px 0 0;
 
 }
 
