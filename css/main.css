@@ -220,6 +220,7 @@ nav a:hover {
   bottom: 0;
   transform: translateX(-50%);
   font-family: "Pacifico", cursive;
+  font-weight: 400;
   font-size: 1rem;
   color: #333;
   z-index: 1;
