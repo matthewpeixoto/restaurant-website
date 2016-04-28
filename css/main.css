@@ -142,7 +142,7 @@ nav a:hover {
 
 .banner-link {
   color: #333;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .banner-body {
@@ -151,7 +151,7 @@ nav a:hover {
   transform: translateX(-50%);
   top: 1em;
   z-index: 1;
-  width: 90%;
+  width: 85%;
 }
 
 .banner-title {
