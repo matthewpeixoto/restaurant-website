@@ -142,14 +142,14 @@ nav a:hover {
 
 .banner-link {
   color: #333;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .banner-body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 1em;
+  top: 5%;
   z-index: 1;
   width: 90%;
 }
@@ -158,12 +158,14 @@ nav a:hover {
   margin: 0;
   font-size: 2.25rem;
   line-height: 1.1;
+  font-weight: 700;
   color: #da9d41;
 }
 
 .banner-text {
-  margin: .75em 0 .5em 0;
+  margin: .7em 0 .35em 0;
   color: #333;
+
 }
 
 .banner-btn {
@@ -232,7 +234,7 @@ nav a:hover {
 .hours-wrapper {
   text-align: center;
   clear: both;
-  padding: 20px;
+  padding: 25px;
 }
 
 .hours {
@@ -435,17 +437,17 @@ strong:hover {
   }
 
   .img-wrapper {
-    height: 65vh;
-    min-height: 700px;
-    max-height: 1500px;
+    height: 50vh;
+    min-height: 555px;
+    max-height: 1000px;
   }
 
   .banner-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .banner-body {
-    top: 12%;
+    top: 9%;
   }
 
   .cards li {
