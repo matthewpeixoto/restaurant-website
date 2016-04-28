@@ -20,11 +20,12 @@ html {
 body {
   margin: 0 auto;
   max-width: 1860px;
+  min-width: 320px;
 }
 
 header {
   color: #fff;
-  background-color: #000;
+  background-color: #222;
   position: relative;
   text-align: center;
 }
@@ -40,14 +41,7 @@ h1, strong {
 }
 
 p {
-  margin: 0 0 1em 0;
-}
-
-.banner-title {
-  font-size: 2.5rem;
-  margin: 0 0 0.45em 0;
-  line-height: 1.1;
-
+  margin: 1em 0 1em 0;
 }
 
 /* nav */
@@ -134,8 +128,9 @@ nav a:hover {
 
 .img-wrapper {
   margin: 0;
+  padding: 0;
   overflow: hidden;
-  min-height: 350px;
+  min-height: 390px;
   max-height: 450px;
   height: 40vh;
   background-image: url("../images/banner.jpg");
@@ -144,31 +139,39 @@ nav a:hover {
 }
 
 .banner-link {
-  color: #fff;
+  color: #333;
+  font-size: 1.25rem;
 }
 
 .banner-body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 4em;
+  top: 1em;
   z-index: 1;
   width: 90%;
-  text-shadow: 0 0 50px rgba(0,0,0,.75);
+  text-shadow: 0 0 100px rgba(255,255,255,.75);
 }
 
+.banner-title {
+  margin: 0;
+  font-size: 2.75rem;
+  line-height: 1.1;
+  color: #da9d41
+  }
+
 .banner-text {
-  margin: .45em 0;
+  margin: .8em 0 .5em 0;
 }
 
 .banner-btn {
-  color: #fff;
-  font-family: "Pacifico", cursive;
+  margin: 0;
+  color: #da9d41;
   font-weight: 400;
 }
 
 .banner-btn:hover {
-  color: #da9d41;;
+  text-decoration: underline;
 }
 
 /* banner */
@@ -272,10 +275,6 @@ nav a:hover {
   font-family: "Pacifico", cursive;
 }
 
-.section-text {
-  padding-top: 1em;
-}
-
 .title-food,
 .card-food {
   color: #498867;
@@ -297,7 +296,7 @@ nav a:hover {
 }
 
 .section-food {
-  background-image: url("../images/section-food.jpg");
+  background-image: url("../images/section-food2.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -327,12 +326,40 @@ nav a:hover {
 }
 
 .contact-header {
-  margin: 1em 0 0 0;
+  margin: 0;
   font-weight: 700;
 }
 
-.contact-text {
-  padding-top: 0;
+.contact-text,
+dt,
+dd {
+  margin: 0 0 1em 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #08c;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+dt{
+  float: left;
+  width: 30%;
+}
+
+dd {
+  float: left;
+  width: 70%;
 }
 
 footer {
@@ -405,7 +432,7 @@ strong:hover {
 
   .img-wrapper {
     height: 70vh;
-    min-height: 555px;
+    min-height: 750px;
   }
 
   .cards li {
