@@ -33,7 +33,7 @@ header {
 h1, strong {
   margin: 0 3.2em 0 0;
   font-size: .9rem;
-  padding: 1rem;
+  padding: .9rem;
   display: inline-block;
   font-family: "Pacifico", cursive;
   font-weight: 400;
@@ -483,6 +483,11 @@ strong:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .nav a {
+    padding-left: 1.8em;
+    padding-right: 1.8em;
   }
 
   .cards li {
