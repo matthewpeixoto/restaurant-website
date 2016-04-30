@@ -38,6 +38,7 @@ h1, strong {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   color: #fff;
+  clear: both;
 }
 
 p {
