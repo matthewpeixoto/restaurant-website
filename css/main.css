@@ -407,6 +407,7 @@ strong:hover {
 
   h1 {
     margin: 0;
+    padding: .9rem;
     display: inline-block;
   }
 
